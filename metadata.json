@@ -1,0 +1,6 @@
+{
+  "name": "BBGL Coffee - Omni-Channel Kiosk & POS",
+  "description": "Production-ready UI/UX design system and multi-surface ecosystem for BBGL Coffee featuring Customer Kiosk, Cashier POS, and Admin Back-Office Hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

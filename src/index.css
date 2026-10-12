@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Fredoka', cursive, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-espresso: #3E2723;
+  --color-caramel: #C68B59;
+  --color-cream: #FDFBF7;
+  --color-oat: #F3EDE2;
+  --color-sage: #2E7D32;
+  --color-coral: #C62828;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background-color: #F3EDE2;
+  color: #3E2723;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+/* Custom scrollbar for touch kiosk and POS */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(62, 39, 35, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(198, 139, 89, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(198, 139, 89, 0.7);
+}
